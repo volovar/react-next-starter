@@ -1,9 +1,9 @@
-import React from "react";
+import { NextPage } from "next";
 import Head from "next/head";
 import Nav from "../src/components/Nav";
 import HomePage from "../src/components/HomePage";
 
-const Home = () => (
+const Home: NextPage = () => (
   <div>
     <Head>
       <title>Home</title>
