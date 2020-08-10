@@ -1,6 +1,6 @@
 {
   "name": "next-react-starter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,8 @@
   "dependencies": {
     "next": "^9.5.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "reset-git": "rm -rf .git && git init"
   },
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^10.0.27",
