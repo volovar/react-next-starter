@@ -3,8 +3,8 @@ import Link from "next/link";
 import { navCss, ulCss, liCss, aCss } from "./nav.style";
 
 const links = [
-  { href: "https://zeit.co/now", label: "ZEIT" },
-  { href: "https://github.com/zeit/next.js", label: "GitHub" }
+  { href: "https://zeit.co/now", label: "ZEIT", key: "" },
+  { href: "https://github.com/zeit/next.js", label: "GitHub", key: "" }
 ].map((link) => {
   link.key = `nav-link-${link.href}-${link.label}`;
   return link;
